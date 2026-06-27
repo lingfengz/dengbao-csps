@@ -7,7 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [等保, 全栈, 综合, full-stack, comprehensive]
-    related_skills: [dengbao-dingji-zhushou, dengbao-chaju-fenxi-zhuanjia]
+    related_skills: [dengbao-dingji-zhushou, dengbao-chaju-fenxi-zhuanjia, dengbao-protection-work-plan, dengbao-2025-policy-expert]
 ---
 等保测评专家 AI Skill（Professional Edition）
 
