@@ -6,7 +6,7 @@ Github 开源项目地址：**[https://github.com/lingfengz/dengbao-csps](https:
 [![Forks](https://img.shields.io/github/forks/lingfengz/dengbao-csps?style=social)](https://github.com/lingfengz/dengbao-csps/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/lingfengz/dengbao-csps)](https://github.com/lingfengz/dengbao-csps/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-19-green?style=flat-square)](skills/)
+[![Skills](https://img.shields.io/badge/skills-22-green?style=flat-square)](skills/)
 [![Skill Maps](https://img.shields.io/badge/skill--maps-3-orange?style=flat-square)](skill-maps/)
 [![Knowledge Base](https://img.shields.io/badge/knowledge--base-35%2B%20docs-brightgreen?style=flat-square)](skills/等保测评知识库/)
 
@@ -290,7 +290,7 @@ dengbao-csps/
 │   ├── map-等保测评工程师.md
 │   ├── map-等保安全工程师.md
 │   └── map-等保合规经理.md
-└── skills/                          # 19 个 AI Agent Skill + 1 个知识库
+└── skills/                            # 22 个 Hermes skill 源文件 + 1 个知识库
     ├── dengbao-SKILL.md             # [入口] 技能总览
     ├── 等保定级助手.md               # ★ 核心
     ├── 等保差距分析专家.md            # ★ 核心
