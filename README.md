@@ -1,10 +1,10 @@
 # 等保测评技能图谱 & AI Agent Skill 集合
 
-Github 开源项目地址：**[https://github.com/lingfengz/dengbao-csps](https://github.com/lingfengz/dengbao-csps)**，欢迎 **Star** :)。
+Github 开源项目地址：**[https://github.com/lingfengz/dengbao-DJCP](https://github.com/lingfengz/dengbao-DJCP)**，欢迎 **Star** :)。
 
-[![Stars](https://img.shields.io/github/stars/lingfengz/dengbao-csps?style=social)](https://github.com/lingfengz/dengbao-csps/stargazers)
-[![Forks](https://img.shields.io/github/forks/lingfengz/dengbao-csps?style=social)](https://github.com/lingfengz/dengbao-csps/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/lingfengz/dengbao-csps)](https://github.com/lingfengz/dengbao-csps/commits/main)
+[![Stars](https://img.shields.io/github/stars/lingfengz/dengbao-DJCP?style=social)](https://github.com/lingfengz/dengbao-DJCP/stargazers)
+[![Forks](https://img.shields.io/github/forks/lingfengz/dengbao-DJCP?style=social)](https://github.com/lingfengz/dengbao-DJCP/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/lingfengz/dengbao-DJCP)](https://github.com/lingfengz/dengbao-DJCP/commits/main)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-22-green?style=flat-square)](skills/)
 [![Skill Maps](https://img.shields.io/badge/skill--maps-3-orange?style=flat-square)](skill-maps/)
@@ -24,15 +24,15 @@ Github 开源项目地址：**[https://github.com/lingfengz/dengbao-csps](https:
 1. **skill-maps/** — 技能图谱（参考 [TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map) 格式），以树状知识结构梳理各角色的能力要求，帮助从业者系统化学习。
 2. **skills/** — 可直接部署到 Hermes Agent 或其他 AI Agent 的 Skill 文件，每个文件包含完整的角色定义和 YAML 元数据，供 AI Agent 直接调用。
 
-除非特别声明，本开源项目所有内容均只代表贡献者个人立场，与其公司背景无关。有任何不同意见和反馈，请提交 [Issue](https://github.com/lingfengz/dengbao-csps/issues) 讨论。
+除非特别声明，本开源项目所有内容均只代表贡献者个人立场，与其公司背景无关。有任何不同意见和反馈，请提交 [Issue](https://github.com/lingfengz/dengbao-DJCP/issues) 讨论。
 
 ## 🚀 快速开始
 
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/lingfengz/dengbao-csps.git
-cd dengbao-csps
+git clone https://github.com/lingfengz/dengbao-DJCP.git
+cd dengbao-DJCP
 ```
 
 ### 2. 安装方法
@@ -49,8 +49,8 @@ bash install.sh
 
 # 输出示例：
 # 📦 等保测评 Skill 集合安装工具
-# 源目录: /path/to/dengbao-csps/skills
-# 目标目录: ~/.hermes/profiles/default/skills/dengbao-csps
+# 源目录: /path/to/dengbao-DJCP/skills
+# 目标目录: ~/.hermes/profiles/default/skills/dengbao-DJCP
 # ✅ 安装完成！共 22 个 skill 文件
 ```
 
@@ -62,10 +62,10 @@ bash install.sh
 
 ```bash
 # 手动复制到 profile 的 skills 目录
-mkdir -p ~/.hermes/profiles/default/skills/dengbao-csps
-cp -r skills/* ~/.hermes/profiles/default/skills/dengbao-csps/
+mkdir -p ~/.hermes/profiles/default/skills/dengbao-DJCP
+cp -r skills/* ~/.hermes/profiles/default/skills/dengbao-DJCP/
 # 删除 archive（已合并的备份文件）
-rm -rf ~/.hermes/profiles/default/skills/dengbao-csps/archive
+rm -rf ~/.hermes/profiles/default/skills/dengbao-DJCP/archive
 
 # 重启 Hermes 使生效
 hermes restart
@@ -253,11 +253,11 @@ less skills/等保测评知识库/references/全部内容.md
 ## 快速安装
 
 ```bash
-cd dengbao-csps
+cd dengbao-DJCP
 bash install.sh
 ```
 
-这会将所有 Skill 文件安装到 `~/.hermes/profiles/default/skills/dengbao-csps/` 目录下，Hermes 下次启动即可使用。也可手动将 `skills/` 中任意 `.md` 文件作为 system prompt 加载到其他 AI Agent。
+这会将所有 Skill 文件安装到 `~/.hermes/profiles/default/skills/dengbao-DJCP/` 目录下，Hermes 下次启动即可使用。也可手动将 `skills/` 中任意 `.md` 文件作为 system prompt 加载到其他 AI Agent。
 
 ## 等保流程全景
 
@@ -291,7 +291,7 @@ bash install.sh
 ## 目录结构
 
 ```
-dengbao-csps/
+dengbao-DJCP/
 ├── README.md                        # 本文件
 ├── install.sh                       # 一键安装到 Hermes Agent
 ├── .gitignore
@@ -316,7 +316,7 @@ dengbao-csps/
 ## 加入我们
 
 - 提交技能图谱或 AI Agent Skill：直接提交 Pull Request
-- 改进建议 / Bug 反馈：提交 [Issue](https://github.com/lingfengz/dengbao-csps/issues)
+- 改进建议 / Bug 反馈：提交 [Issue](https://github.com/lingfengz/dengbao-DJCP/issues)
 - 新增领域：欢迎贡献新的等保相关技能图谱
 
 ## 版本信息

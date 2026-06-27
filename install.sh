@@ -11,7 +11,7 @@ set -e
 
 PROFILE="${1:-default}"
 HERMES_SKILLS_DIR="${HOME}/.hermes/profiles/${PROFILE}/skills"
-TARGET_DIR="${HERMES_SKILLS_DIR}/dengbao-csps"
+TARGET_DIR="${HERMES_SKILLS_DIR}/dengbao-DJCP"
 SOURCE_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 echo "📦 等保测评 Skill 集合安装工具"
@@ -24,7 +24,7 @@ echo ""
 # 检查源目录
 if [ ! -d "${SOURCE_DIR}/skills" ]; then
     echo "❌ 错误: 找不到 skills/ 目录"
-    echo "   请确保在 dengbao-csps 项目根目录下运行此脚本"
+    echo "   请确保在 dengbao-DJCP 项目根目录下运行此脚本"
     exit 1
 fi
 
