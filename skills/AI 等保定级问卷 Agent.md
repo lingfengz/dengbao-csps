@@ -1,12 +1,12 @@
 ---
 name: ai-dengbao-grading-questionnaire-agent
-description: "Use when conducting automated information security grading surveys. Collects grading info through interactive Q&A, dynamically adjusting questions based on user responses."
+description: "Use ONLY for structured questionnaire-based grading data collection. Prompts users step-by-step to fill in system name, industry, business impact. Does NOT generate grading reports or determine levels."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 metadata:
   hermes:
-    tags: [等保定级, 问卷, 信息安全, 动态问答, grading-questionnaire, security-survey, dynamic-qa]
+    tags: [等保定级, 问卷, 信息采集, grading-survey, data-collection]
     related_skills: []
 ---
 

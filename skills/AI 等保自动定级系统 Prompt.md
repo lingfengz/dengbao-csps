@@ -1,12 +1,12 @@
 ---
 name: ai-dengbao-auto-grading-system-prompt
-description: "Use when automatically determining cybersecurity protection levels. Analyzes business attributes, data sensitivity, and social impact per GB/T 22240-2020 standards."
+description: "Use ONLY when the user has already provided all system information and needs an automated protection level determination based on GB/T 22240-2020. Not for general consulting or report generation."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 metadata:
   hermes:
-    tags: [等保定级, 自动定级, GB/T 22240, 网络安全, auto-grading, cybersecurity-level, protection-grading]
+    tags: [等保定级, 自动定级, 等级判定, auto-grading, level-determination]
     related_skills: []
 ---
 

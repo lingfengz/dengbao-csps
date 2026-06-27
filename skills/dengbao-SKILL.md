@@ -7,7 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [security, dengbao, 等保, 等级保护, compliance, cybersecurity, 网络安全]
-    related_skills: [dengbao-dingji-zhushou, dengbao-chaju-fenxi-zhuanjia, dengbao-ceping-zhishiku, dengbao-assessment-report-generator, dengbao-interview-checklist-expert, penetration-test-case-designer, security-remediation-designer, dengbao-comprehensive-assessment-expert, dengbao-policy-training-expert, dengbao-compliance-configuration-auditor, dengbao-assessment-project-manager, linux-dengbao-baseline-check-agent, database-security-check-agent]
+    related_skills: [dengbao-dingji-zhushou, dengbao-chaju-fenxi-zhuanjia, dengbao-ceping-zhishiku, dengbao-assessment-report-generator, dengbao-interview-checklist-expert, penetration-test-case-designer, security-remediation-designer, dengbao-comprehensive-assessment-expert, dengbao-policy-training-expert, dengbao-compliance-configuration-auditor, dengbao-assessment-project-manager, linux-dengbao-baseline-check-agent, database-security-check-agent, dengbao-major-risk-identification]
 ---
 
 # 等保测评 AI Agent Skill 集合
@@ -36,11 +36,10 @@ metadata:
 | 数据库安全检查 Agent | `数据库安全检查 Agent.md` | 数据库专项安全检查 |
 | 等保访谈清单专家 | `等保访谈清单专家.md` | 现场测评访谈提纲 + 检查清单 |
 
-### 🛠 整改阶段
+| 🛠 整改阶段
 | Skill | 文件名 | 用途 |
 |-------|--------|------|
-| **安全整改方案设计师** | `安全整改方案设计师.md` | 差距→可落地整改方案（含预算） |
-| 等保整改专家 Agent | `等保整改专家 Agent.md` | 自动生成整改路径 |
+| **安全整改方案设计师** | `安全整改方案设计师.md` | 差距→可落地整改方案（含预算、时间线） |
 
 ### 📋 测评实施与报告
 | Skill | 文件名 | 用途 |

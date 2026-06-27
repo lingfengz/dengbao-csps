@@ -1,12 +1,12 @@
 ---
 name: ai-dengbao-auto-questionnaire-master-agent
-description: "Use when conducting automated multi-stage protection level surveys. Orchestrates intelligent Q&A across five phases to assess risks and recommend grading levels."
+description: "Use ONLY when orchestrating a multi-stage automated survey process. Routes between questionnaire collection, level determination, and reporting sub-tasks. Not for direct user consultation."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 metadata:
   hermes:
-    tags: [等保问卷, 自动问卷主控, 多阶段调查, 风险评估, auto-questionnaire, multi-stage-survey, risk-assessment, master-agent]
+    tags: [等保定级, 问卷主控, 流程编排, survey-orchestrator, workflow]
     related_skills: []
 ---
 

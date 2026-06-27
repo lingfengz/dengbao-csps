@@ -1,12 +1,12 @@
 ---
 name: database-security-check-agent
-description: "Use when auditing database security for protection level compliance. Checks account security, network exposure, audit capability, and data encryption for MySQL/Oracle/PostgreSQL/Redis/MongoDB."
+description: "Use ONLY for database-specific security baseline audits (MySQL/Redis/Oracle/PostgreSQL/MongoDB). For full-system compliance checks including databases, use 等保合规配置核查专家 instead."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 metadata:
   hermes:
-    tags: [数据库安全检查, 等保合规, 数据库审计, 数据安全, database-security, sql-audit, data-encryption, mysql, oracle, postgresql]
+    tags: [数据库, 安全检查, mysql, oracle, redis, mongodb, postgresql, database-audit, sql-security]
     related_skills: []
 ---
 

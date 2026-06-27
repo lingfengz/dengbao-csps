@@ -1,12 +1,12 @@
 ---
 name: linux-dengbao-baseline-check-agent
-description: "Use when performing Linux security baseline checks for protection level compliance. Audits identity, access control, audit logs, intrusion prevention, and malware defenses."
+description: "Use ONLY for Linux-specific security baseline checks (CentOS/Ubuntu/Rocky). Covers password policy, SSH, auditd, firewall, SELinux. For multi-platform checks, use 等保合规配置核查专家 instead."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 metadata:
   hermes:
-    tags: [Linux基线检查, 等保合规, CIS基准, 安全审计, linux-baseline, security-audit, cis-benchmark, centos, ubuntu]
+    tags: [linux, 基线检查, 安全加固, centos, ubuntu, rocky, baseline-audit, security-hardening]
     related_skills: []
 ---
 
